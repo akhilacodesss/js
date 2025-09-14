@@ -158,9 +158,9 @@ let mobile = {
 // })
 
 //ex4  returns an array of key , values pairs
-// Object.entries(mobile).forEach(([key,value]) => {
-//  console.log(key , ":" ,  value)
-// })
+Object.entries(mobile).forEach(([key,value]) => {
+ console.log(key , ":" ,  value)
+})
 
 
 let personJson = `{
